@@ -1,0 +1,359 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        background-color: #F5F5F5;
+        min-height: 250vh;
+        margin-top: 0!important;
+        padding: 0!important;
+        position: relative;
+    }
+    
+    .container .row .col-12 h2 {
+        color: #fa8231;
+        font-weight: bold;
+    }
+    
+    .row-title {
+        padding: 25px 45px;
+        background-color: #ffffff;
+    }
+    
+    .col-sm-12 h2 {
+        color: #fa8231;
+    }
+    
+    .col-flex-abonament {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-items: flex-start;
+        background-color: #ffffff;
+        margin-right: 25px;
+        padding: 30px;
+        min-height: 350px;
+    }
+    
+    .abonament-title-generic {
+        color: #7f8c8d;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .abonament-title-denumire {
+        color: #fa8231;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    
+    .abonament-title-canale {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    
+    .abonament-title-canale-hd {
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+    
+    .abonament-title-canale-lista ul {
+        margin-top: 10px;
+        padding-left: 19px;
+    }
+    
+    .abonament-title-canale-lista ul li {
+        list-style-type: square;
+    }
+    
+    .abonament-title-canale-lista ul li span {
+        color: #fa8231;
+    }
+    
+    .abonament-title-canale-pret div:nth-child(1) {
+        font-size: 2rem;
+        color: #fa8231;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+    
+    .abonament-title-canale-pret div:nth-child(2) {
+        font-size: 0.8rem;
+        color: #7f8c8d;
+        font-weight: bold;
+    }
+    
+    .abonament-title-canale-buton {
+        width: 100%;
+    }
+    
+    .abonament-title-canale-buton button {
+        background-color: #fa8231;
+        color: #ffffff;
+        width: 100%;
+    }
+    
+    .abonament-title-canale-buton button:hover {
+        color: #ffffff;
+    }
+    
+    #row-canale img {
+        width: 60px;
+        position: relative;
+        top: -330px;
+        left: 40px;
+    }
+    
+    .row-canale_bottom div span {
+        font-weight: bolder;
+        color: #fa8231;
+    }
+    
+    .row-canale_bottom {
+        z-index: 20;
+    }
+    
+    .row-canale_bottom div {
+        position: relative;
+        top: -365px;
+        left: 120px;
+        color: #ffffff;
+        font-size: 0.9rem;
+    }
+    
+    .plan_image {
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .col-4-plan_name {
+        margin: 8px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .col-4-plan_name button {
+        background-color: #000000;
+        color: #ffffff;
+    }
+    
+    .col-4-plan_about {
+        margin: 8px;
+    }
+    
+    .col-4-plan_about a {
+        color: #fa8231;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .col-4-plan_name button:hover {
+        color: #ffffff;
+    }
+    
+    .col-4-plan_price {
+        margin: 8px;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    
+    .col-4-plan_buton button {
+        border: 2px solid #000000;
+        border-radius: 0;
+        min-width: 40%;
+        margin: 8px;
+    }
+    
+    .row-black {
+        background-color: #000000;
+        padding: 10px;
+        color: #ffffff;
+        margin-top: 60px;
+        position: relative;
+        top: -300px;
+    }
+    
+    .row-black-location img {
+        width: 50px;
+        margin-right: 25px;
+    }
+    
+    .row-black .col-12 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .row-black-text span {
+        color: #fa8231;
+    }
+    
+    .col-4-tv-cards {
+        margin-top: 50px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .col-4-tv-cards h4 {
+        padding-left: 40px;
+        font-weight: bolder;
+    }
+    
+    .col-12-header {
+        margin-top: 60px;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    
+    .col-question {
+        background-color: white;
+        padding: 10px 40px;
+        font-weight: bold;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    
+    .question-text {
+        width: 97%;
+    }
+    
+    .question-action {
+        width: 3%;
+    }
+    
+    .question-action img {
+        width: 45px;
+        position: relative;
+    }
+    
+    #row-posturi {
+        margin-top: 100px;
+        position: relative;
+        top: -300px;
+    }
+    
+    #col-clip-path {
+        background-color: #000000!important;
+        height: 400px;
+        clip-path: polygon(92% 76%, 89% 0, 100% 0, 100% 100%, 0 100%, 0 88%, 18% 82%);
+        position: relative;
+        top: -280px;
+        z-index: 4;
+    }
+    /*Carousel*/
+    
+    .carousel-wrap {
+        margin: 5px auto;
+        padding: 0 5%;
+        width: 80%;
+        position: relative;
+        z-index: 200;
+    }
+    
+    .carousel-wrap div.carousel-info-canale {
+        position: relative;
+        left: -150px;
+        font-weight: bold;
+    }
+    
+    .carousel-wrap div.carousel-info-canale span {
+        font-weight: normal;
+        color: #7f8c8d;
+    }
+    /* fix blank or flashing items on carousel */
+    
+    .owl-carousel .item {
+        position: relative;
+        width: 70px;
+        z-index: 999;
+    }
+    /* end fix */
+    
+    .owl-nav>div {
+        margin-top: -26px;
+        position: absolute;
+        top: 50%;
+        color: #cdcbcd;
+    }
+    
+    .owl-nav i {
+        font-size: 22px;
+    }
+    
+    .owl-prev {
+        position: relative;
+        top: -20px;
+        left: -100px;
+    }
+    
+    .owl-next {
+        position: relative;
+        top: -20px;
+        left: 900px;
+    }
+    
+    .owl-prev:hover {
+        color: #fa8231;
+    }
+    
+    .fa-map-marker-alt {
+        color: #fa8231;
+    }
+    
+    #row-carousel-posturi .col-12 {
+        background-color: #ffffff;
+        margin-right: 5%;
+        z-index: 3;
+    }
+    
+    #row-cards {
+        position: relative;
+        top: -300px;
+    }
+    
+    .row-frequent-questions {
+        position: relative;
+        top: -300px;
+    }
+    
+    .blue-widget {
+        background-color: #34b0ee;
+        width: 300px;
+        padding: 25px;
+        position: absolute;
+        top: 35vh;
+        right: 0px;
+        z-index: 1000;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .text-canale {
+        font-weight: bold;
+        font-size: 1.6rem;
+        color: #ffffff;
+    }
+    
+    .text-canale-hd {
+        font-weight: bold;
+        font-size: 1.1rem;
+        color: #ffffff;
+    }

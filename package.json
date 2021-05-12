@@ -1,0 +1,22 @@
+{
+  "name": "mockup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TudorIonutElian/mockup_challenge.git"
+  },
+  "author": "Tudor Ionut Elian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TudorIonutElian/mockup_challenge/issues"
+  },
+  "homepage": "https://github.com/TudorIonutElian/mockup_challenge#readme",
+  "dependencies": {
+    "tiny-slider": "^2.9.3"
+  }
+}
